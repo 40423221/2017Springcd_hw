@@ -22,12 +22,12 @@
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170215103217.1" a="E"><vh>編輯 template</vh>
-<v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
+<v t="yen.20170215103217.1"><vh>編輯 template</vh>
+<v t="yen.20170215103228.1"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -35,6 +35,12 @@
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
 <v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170308101642.1" a="E"><vh>2017-03-01</vh>
+<v t="leo.20170308101642.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20170308101541.1" a="E"><vh>2017-02-22</vh>
+<v t="leo.20170308101541.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
@@ -65,7 +71,7 @@
 <v t="yen.20170209092319.1"><vh>@edit 20170209.md</vh></v>
 <v t="yen.20170217105706.1"><vh>@edit 20170217.md</vh></v>
 <v t="yen.20170221100209.1"><vh>@edit 20170222.md</vh></v>
-<v t="yen.20170108171733.81"><vh>@path pages</vh>
+<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -73,8 +79,8 @@
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
-<v t="yen.20170120212350.1" a="E"><vh>programs</vh>
-<v t="yen.20170210153828.1" a="E"><vh>v-rep rempte api</vh>
+<v t="yen.20170120212350.1"><vh>programs</vh>
+<v t="yen.20170210153828.1"><vh>v-rep rempte api</vh>
 <v t="yen.20170210202015.1"><vh>Python remote API</vh></v>
 <v t="yen.20170210170248.1"><vh>line tracer</vh></v>
 <v t="yen.20170210222733.1"><vh>line tracer2</vh></v>
@@ -86,13 +92,61 @@
 <v t="yen.20170120232548.1"><vh>calendar example</vh></v>
 <v t="yen.20170123204227.1"><vh>印出月曆以及各課程上課日期</vh></v>
 <v t="yen.20170207092354.1"><vh>協同程式參考</vh></v>
-<v t="yen.20170124102405.1" a="E"><vh>chat</vh>
+<v t="yen.20170124102405.1"><vh>chat</vh>
 <v t="yen.20170124102433.1"><vh>index.html</vh></v>
 </v>
 </v>
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170308101541.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170308101541.2"># 上課內容
+
+w1
+
+tiny2017 - with_pip\data\stunnel\config的stunnel.conf檔案
+
+stunnel.conf移至SciTE
+
+程式碼前面的分號 就是註解不會執行那段程式碼
+
+利用cmd查IP
+ipconfig /all
+打開 data/stunnel/config/stunnel.conf
+
+將https的IP改為電腦的IP.位置約在倒數第五列
+
+443是https內建的埠口( port ), 不用改
+
+因為有用proxy所以要指定的IP位址不要經過proxy                                              
+Chrome proxy設定&gt;LAN設定&gt;進階
+</t>
+<t tx="leo.20170308101642.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170308101642.2"># 上課內容
+
+w2
+
+用 ETHERCALC取得各學員座號與組別
+
+用PYTHON找出缺課人員(包含我也空缺)
+
+在SOLVESPACE，做出零件，組立四連桿，並放置到V-REP上</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -422,8 +476,12 @@ make.start()
 
 ### 虎科大機械設計工程系
 
+## 機設二乙
+
+## 林建辰
+
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40423221](http://mde.tw/2017springcd/blog/)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
