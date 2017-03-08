@@ -33,14 +33,17 @@
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
 <v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
+<v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170308101642.1" a="E"><vh>2017-03-01</vh>
-<v t="leo.20170308101642.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20170308104627.1"><vh>2017-02-22</vh>
+<v t="leo.20170308104627.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20170308104627.3" a="E"><vh>2017-03-01</vh>
+<v t="leo.20170308104627.4"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170308101541.1" a="E"><vh>2017-02-22</vh>
-<v t="leo.20170308101541.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20170308101642.1"><vh>2017-03-01</vh>
+<v t="leo.20170308101642.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
@@ -99,7 +102,7 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
-<t tx="leo.20170308101541.1">&lt;section data-markdown&gt;
+<t tx="leo.20170308101642.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -108,7 +111,25 @@
 
 						
 </t>
-<t tx="leo.20170308101541.2"># 上課內容
+<t tx="leo.20170308101642.2"># 上課內容
+
+w2
+
+用 ETHERCALC取得各學員座號與組別
+
+用PYTHON找出缺課人員(包含我也空缺)
+
+在SOLVESPACE，做出零件，組立四連桿，並放置到V-REP上</t>
+<t tx="leo.20170308104627.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170308104627.2"># 上課內容
 
 w1
 
@@ -129,7 +150,7 @@ ipconfig /all
 因為有用proxy所以要指定的IP位址不要經過proxy                                              
 Chrome proxy設定&gt;LAN設定&gt;進階
 </t>
-<t tx="leo.20170308101642.1">&lt;section data-markdown&gt;
+<t tx="leo.20170308104627.3">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -138,7 +159,7 @@ Chrome proxy設定&gt;LAN設定&gt;進階
 
 						
 </t>
-<t tx="leo.20170308101642.2"># 上課內容
+<t tx="leo.20170308104627.4"># 上課內容
 
 w2
 
@@ -481,7 +502,7 @@ make.start()
 ## 林建辰
 
 &lt;small&gt;
-Created by [40423221](http://mde.tw/2017springcd/blog/)
+Created by [40423221](https://40423221.github.io/2017springcd_hw/blog/)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
