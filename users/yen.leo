@@ -42,8 +42,11 @@
 <v t="leo.20170308104627.4"><vh>投影片快捷鍵</vh></v>
 </v>
 </v>
-<v t="leo.20170308101642.1"><vh>2017-03-01</vh>
+<v t="leo.20170308101642.1" a="E"><vh>2017-03-01</vh>
 <v t="leo.20170308101642.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20170315093526.1" a="E"><vh>2017-03-08</vh>
+<v t="leo.20170315093526.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
@@ -168,6 +171,30 @@ w2
 用PYTHON找出缺課人員(包含我也空缺)
 
 在SOLVESPACE，做出零件，組立四連桿，並放置到V-REP上</t>
+<t tx="leo.20170315093526.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170315093526.2"># 上課內容
+
+# w3
+
+HYPERWORKS 處瀏覽 10 個影片, 選兩個影片,
+
+寫出該影片的英文逐字稿
+
+ SOLVESPACE 30-50-60 CM 比例的四連桿組立，
+
+並轉出 stl 檔案，以 import 方式轉入 V-rep
+
+ONSHAPE 完成與第二點相同尺寸之四連桿機構,
+
+以 stl 轉出 (或其他格式) 後, 再轉入 V-rep</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
