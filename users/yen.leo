@@ -46,7 +46,8 @@
 <v t="leo.20170308101642.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20170315093526.1" a="E"><vh>2017-03-08</vh>
-<v t="leo.20170315093526.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20170315093526.2"><vh>w3-1</vh></v>
+<v t="leo.20170315103411.1"><vh>w3-2</vh></v>
 </v>
 <v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
@@ -69,7 +70,7 @@
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="yen.20170123225841.1"><vh>@edit 20170108.md</vh></v>
-<v t="yen.20170207091131.1" a="E"><vh>@clean 20170207.md</vh>
+<v t="yen.20170207091131.1"><vh>@clean 20170207.md</vh>
 <v t="yen.20170207091131.2"><vh>ex1 - for 迴圈</vh></v>
 <v t="yen.20170207091131.3"><vh>ex2 - input 與單位換算</vh></v>
 <v t="yen.20170207091131.4"><vh>filereader</vh></v>
@@ -184,17 +185,22 @@ w2
 
 # w3
 
-HYPERWORKS 處瀏覽 10 個影片, 選兩個影片,
-
+HYPERWORKS10 個影片, 選兩個影片,
 寫出該影片的英文逐字稿
 
- SOLVESPACE 30-50-60 CM 比例的四連桿組立，
+ SOLVESPACE 3:5:6比例的四連桿組立，
 
 並轉出 stl 檔案，以 import 方式轉入 V-rep
 
 ONSHAPE 完成與第二點相同尺寸之四連桿機構,
 
-以 stl 轉出 (或其他格式) 後, 再轉入 V-rep</t>
+以 stl 轉出後, 再轉入
+     V-rep</t>
+<t tx="leo.20170315103411.1">認識Altair的特色，其中包括檢測受力.受熱.流力.最小化資源利用.較為人性的快捷列
+
+在四連桿上加上 50-50-50 正三角形, 以 SOLVESPACE 輸入該三角形頂點運動軌跡
+
+檢查四連桿運動軌跡,並在分組網頁執行模擬</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
