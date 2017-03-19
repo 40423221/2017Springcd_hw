@@ -36,20 +36,7 @@
 <v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170308104627.1"><vh>2017-02-22</vh>
-<v t="leo.20170308104627.2"><vh>投影片快捷鍵</vh></v>
-<v t="leo.20170308104627.3" a="E"><vh>2017-03-01</vh>
-<v t="leo.20170308104627.4"><vh>投影片快捷鍵</vh></v>
-</v>
-</v>
-<v t="leo.20170308101642.1" a="E"><vh>2017-03-01</vh>
-<v t="leo.20170308101642.2"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="leo.20170315093526.1" a="E"><vh>2017-03-08</vh>
-<v t="leo.20170315093526.2"><vh>w3-1</vh></v>
-<v t="leo.20170315103411.1"><vh>w3-2</vh></v>
-</v>
-<v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
+<v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="yen.20170120110024.11"><vh>各式內容引用範例</vh>
@@ -61,6 +48,27 @@
 </v>
 <v t="yen.20170120110024.16" a="E"><vh>導入影片</vh>
 <v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
+</v>
+</v>
+<v t="leo.20170308104627.1" a="E"><vh>2017-02-22</vh>
+<v t="leo.20170308104627.2"><vh>上課內容</vh>
+<v t="leo.20170319183704.1"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170319183727.1"><vh>上課內容</vh>
+<v t="leo.20170319183727.2"><vh>上課內容</vh></v>
+</v>
+</v>
+<v t="leo.20170308101642.1" a="E"><vh>2017-03-01</vh>
+<v t="leo.20170319183754.1"><vh>上課內容</vh>
+<v t="leo.20170319183754.2"><vh>上課內容</vh></v>
+</v>
+</v>
+<v t="leo.20170315093526.1" a="E"><vh>2017-03-08</vh>
+<v t="leo.20170319183811.1"><vh>上課內容</vh>
+<v t="leo.20170319183811.2"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20170319183849.1"><vh>上課內容</vh>
+<v t="leo.20170319183849.2"><vh>上課內容</vh></v>
 </v>
 </v>
 </v>
@@ -105,34 +113,23 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
-<t tx="leo.20170308101642.1">&lt;section data-markdown&gt;
+<t tx="leo.20170308101642.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170308104627.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170308104627.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20170308101642.2"># 上課內容
-
-w2
-
-用 ETHERCALC取得各學員座號與組別
-
-用PYTHON找出缺課人員(包含我也空缺)
-
-在SOLVESPACE，做出零件，組立四連桿，並放置到V-REP上</t>
-<t tx="leo.20170308104627.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20170315093526.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170308104627.2"># 上課內容
+&lt;/section&gt;</t>
+<t tx="leo.20170319183704.1">#上課內容
 
 w1
 
@@ -140,7 +137,15 @@ tiny2017 - with_pip\data\stunnel\config的stunnel.conf檔案
 
 stunnel.conf移至SciTE
 
-程式碼前面的分號 就是註解不會執行那段程式碼
+程式碼前面的分號 就是註解不會執行那段程式碼</t>
+<t tx="leo.20170319183727.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170319183727.2">#上課內容
 
 利用cmd查IP
 ipconfig /all
@@ -153,16 +158,14 @@ ipconfig /all
 因為有用proxy所以要指定的IP位址不要經過proxy                                              
 Chrome proxy設定&gt;LAN設定&gt;進階
 </t>
-<t tx="leo.20170308104627.3">&lt;section data-markdown&gt;
+<t tx="leo.20170319183754.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20170308104627.4"># 上課內容
+<t tx="leo.20170319183754.2"># 上課內容
 
 w2
 
@@ -171,16 +174,14 @@ w2
 用PYTHON找出缺課人員(包含我也空缺)
 
 在SOLVESPACE，做出零件，組立四連桿，並放置到V-REP上</t>
-<t tx="leo.20170315093526.1">&lt;section data-markdown&gt;
+<t tx="leo.20170319183811.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20170315093526.2"># 上課內容
+<t tx="leo.20170319183811.2"># 上課內容
 
 w3
 
@@ -193,9 +194,16 @@ HYPERWORKS10 個影片, 選兩個影片,
 
 ONSHAPE 完成與第二點相同尺寸之四連桿機構,
 
-以 stl 轉出後, 再轉入
-     V-rep</t>
-<t tx="leo.20170315103411.1">
+以 stl 轉出後, 再轉入V-rep</t>
+<t tx="leo.20170319183849.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20170319183849.2"># 上課內容
+
 認識Altair的特色，其中包括檢測受力.受熱.流力.最小化資源利用.較為人性的快捷列
 
 在四連桿上加上 50-50-50 正三角形, 以 SOLVESPACE 輸入該三角形頂點運動軌跡
@@ -851,7 +859,7 @@ Author: 40423221
 
 利用 Solvespace 進行四連桿機構組立並轉為st檔
 
-開啟fourbarlinkage裡的link_30、link_50、link_60 並依序組裝形成四連桿 
+開啟fourbarlinkage裡的  link_30、link_50、link_60 並依序組裝形成四連桿 
 
 心得
 
