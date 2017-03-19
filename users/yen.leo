@@ -27,7 +27,7 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -78,14 +78,7 @@
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="yen.20170123225841.1"><vh>@edit 20170222.md</vh></v>
-<v t="yen.20170207091131.1"><vh>@edit 20170301.md</vh>
-<v t="yen.20170207091131.2"><vh>ex1 - for 迴圈</vh></v>
-<v t="yen.20170207091131.3"><vh>ex2 - input 與單位換算</vh></v>
-<v t="yen.20170207091131.4"><vh>filereader</vh></v>
-</v>
-<v t="yen.20170217105706.1"><vh>@edit 20170308.md</vh></v>
-<v t="yen.20170221100209.1"><vh>@edit 20170222.md</vh></v>
-<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
+<v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -845,107 +838,6 @@ $(document).ready(function() {
 &lt;button id="sendbutton"&gt;Send&lt;/button&gt;
 &lt;/body&gt;
 &lt;/html&gt;</t>
-<t tx="yen.20170207091131.1">@language md
-Title: 2017/03/01
-Date: 2017-03-01 11:00
-Category: Course
-Tags: brython, w1
-Slug: brython-editor
-Author: 40423221
-
-利用python找出缺課人員
-
-程式碼可至課程倉儲下載 "cd_w2.py"座位程式碼，"w2b_cadlab.txt"座位表
-
-利用 Solvespace 進行四連桿機構組立並轉為st檔
-
-開啟fourbarlinkage裡的  link_30、link_50、link_60 並依序組裝形成四連桿 
-
-心得
-
-使用v-rep,學習到使用程式碼使資料方便</t>
-<t tx="yen.20170207091131.2">
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import script1
-
-def ex1(ev):
-    script1.editor.setValue('''#ex1 簡單的 for 迴圈範例
-    for i in range(10):
-        print(i)
-    ''')
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-doc['ex1'].bind('click',ex1)
-&lt;/script&gt;&lt;a id="ex1"&gt;ex1&lt;/a&gt;-for 迴圈
-</t>
-<t tx="yen.20170207091131.3">
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import script1
-
-def ex2(ev):
-    script1.editor.setValue('''#溫度轉換程式
-from browser import document as doc
-
-# 因為此函式與滑鼠互動, 需要 event 當作輸入
-def convTemp():
-    mystring = ""
-    cdegree = input("請輸入攝氏溫度:")
-    fdegree = float(cdegree)*9/5 + 32
-    output_string = "攝氏 " + str(cdegree) + "度=華氏 " + str(fdegree) + "度" 
-    # 利用 print() 將轉換結果送到 console 區
-    print(output_string)
-
-#直接呼叫 convTemp() 執行
-convTemp()
-    ''')
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-doc['ex2'].bind('click',ex2)
-&lt;/script&gt;&lt;a id="ex2"&gt;ex2&lt;/a&gt;-溫度換算</t>
-<t tx="yen.20170207091131.4">
-&lt;script type="text/python3"&gt;
-from browser import document
-import script1
-
-def get_file(e):
-    data = open("./../python_ex/for1.py").read()
-    script1.editor.setValue(data)
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-    
-document["get"].bind("click", get_file)
-&lt;/script&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document
-import script1
-
-def get_temp1(e):
-    data = open("./../python_ex/temp1.py").read()
-    script1.editor.setValue(data)
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-    
-document["get_temp1"].bind("click", get_temp1)
-&lt;/script&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document
-import script1
-
-def get_ver_and_kw(e):
-    data = open("./../python_ex/ver_and_kw.py").read()
-    script1.editor.setValue(data)
-    script1.editor.scrollToRow(0)
-    script1.editor.gotoLine(0)
-    
-document["get_ver_and_kw"].bind("click", get_ver_and_kw)
-&lt;/script&gt;
-
-&lt;button id="get"&gt;for1.py&lt;/button&gt;&lt;button id="get_temp1"&gt;temp1.py&lt;/button&gt;&lt;button id="get_ver_and_kw"&gt;ver_and_kw.py&lt;/button&gt;
-</t>
 <t tx="yen.20170207092354.1">##利用 IPv6 網路傳輸設計檔案
 
 &lt;pre class="brush: python"&gt;
