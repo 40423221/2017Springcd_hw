@@ -81,6 +81,26 @@
 <v t="leo.20170405074503.3"><vh>上課內容</vh></v>
 </v>
 </v>
+<v t="leo.20170425193005.1"><vh>2017-03-29</vh>
+<v t="leo.20170425193005.2"><vh>上課內容</vh>
+<v t="leo.20170425193005.3"><vh>上課內容</vh></v>
+</v>
+</v>
+<v t="leo.20170425193010.1"><vh>2017-04-05</vh>
+<v t="leo.20170425193010.2"><vh>上課內容</vh>
+<v t="leo.20170425193010.3"><vh>上課內容</vh></v>
+</v>
+</v>
+<v t="leo.20170425193020.1" a="E"><vh>2017-04-12</vh>
+<v t="leo.20170425193020.2" a="E"><vh>上課內容</vh>
+<v t="leo.20170425193020.3"><vh>上課內容</vh></v>
+</v>
+</v>
+<v t="leo.20170425193023.1"><vh>2017-04-19</vh>
+<v t="leo.20170425193023.2"><vh>上課內容</vh>
+<v t="leo.20170425193023.3"><vh>上課內容</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -223,53 +243,101 @@ ONSHAPE 完成與第二點相同尺寸之四連桿機構,
 <t tx="leo.20170405074209.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="leo.20170405074209.2"># 上課內容
+<t tx="leo.20170405074209.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170405074209.3"># 上課內容
 
 w4
 
-介紹X-WINDOWS , VNC , REMOTE DESKTOP , 的功能
+一.建立各組協同主機
 
-組長建立FOSSIL倉儲,編輯密碼,並把組員拉入</t>
-<t tx="leo.20170405074209.3"># 上課內容
+二.在OnShape繪出單連桿機構並轉成STL
 
-w3
-
-HYPERWORKS10 個影片, 選兩個影片,
-寫出該影片的英文逐字稿
-
- SOLVESPACE 3:5:6比例的四連桿組立，
-
-並轉出 stl 檔案，以 import 方式轉入 V-rep
-
-ONSHAPE 完成與第二點相同尺寸之四連桿機構,
-
-以 stl 轉出後, 再轉入V-rep</t>
+三.在SolveSpace繪出單連桿機構並轉成STL</t>
 <t tx="leo.20170405074503.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="leo.20170405074503.2"># 上課內容
+<t tx="leo.20170405074503.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170405074503.3"># 上課內容
 
 w5
 
-如何在FOSSIL筆記倉儲主頁顯示作業
+一.fossil倉儲首頁設定
 
-將單連桿轉入V-REP並使其作動
+二.將單連桿轉入V-rep並使其作動</t>
+<t tx="leo.20170425193005.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170425193005.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170425193005.3"># 上課內容
 
-</t>
-<t tx="leo.20170405074503.3"># 上課內容
+w6
 
-w3
+一.利用Onshape的變數指令繪製四連桿並匯入V-rep</t>
+<t tx="leo.20170425193010.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170425193010.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170425193010.3"># 上課內容
 
-HYPERWORKS10 個影片, 選兩個影片,
-寫出該影片的英文逐字稿
+w7
 
- SOLVESPACE 3:5:6比例的四連桿組立，
+一.利用fossil對倉儲進行管理
 
-並轉出 stl 檔案，以 import 方式轉入 V-rep
+二.利用Onshape繪製八連桿</t>
+<t tx="leo.20170425193020.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170425193020.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170425193020.3"># 上課內容
 
-ONSHAPE 完成與第二點相同尺寸之四連桿機構,
+w8
 
-以 stl 轉出後, 再轉入V-rep</t>
+一.各組期中簡報 (含影片拍攝與上傳) 與評分</t>
+<t tx="leo.20170425193023.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170425193023.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170425193023.3"># 上課內容
+
+w9
+
+一.Fossil Server 實習查驗
+
+二.四連桿機構協同 Trace Point 查驗
+
+三.Fourbar Walker OnShape 零件協同繪圖與組立查驗
+
+四.分組協同零件展示</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
